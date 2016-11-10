@@ -1,7 +1,6 @@
 # LJTools
-常用工具类
-1，地图坐标转换，提供以下接口：
-
+常用工具类<br />
+1，地图坐标转换，提供以下接口：<br />
 //判断是否在中国
 > + (BOOL)isLocationOutOfChina:(CLLocationCoordinate2D)location;
 
