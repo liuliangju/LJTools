@@ -15,6 +15,7 @@
 		A70F8AE91DCD65BE00963213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70F8AE71DCD65BE00963213 /* LaunchScreen.storyboard */; };
 		A70F8AF41DCD65BE00963213 /* LJToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8AF31DCD65BE00963213 /* LJToolsTests.m */; };
 		A70F8AFF1DCD65BE00963213 /* LJToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8AFE1DCD65BE00963213 /* LJToolsUITests.m */; };
+		A7A3D6D11DD4634700B7FC06 /* LJMapCoordinateToCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A70F8AFA1DCD65BE00963213 /* LJToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70F8AFE1DCD65BE00963213 /* LJToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJToolsUITests.m; sourceTree = "<group>"; };
 		A70F8B001DCD65BE00963213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A3D6CF1DD4634700B7FC06 /* LJMapCoordinateToCorrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMapCoordinateToCorrect.h; sourceTree = "<group>"; };
+		A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMapCoordinateToCorrect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A70F8AD81DCD65BE00963213 /* LJTools */ = {
 			isa = PBXGroup;
 			children = (
+				A7A3D6CD1DD4622A00B7FC06 /* Tools */,
 				A70F8ADC1DCD65BE00963213 /* AppDelegate.h */,
 				A70F8ADD1DCD65BE00963213 /* AppDelegate.m */,
 				A70F8ADF1DCD65BE00963213 /* ViewController.h */,
@@ -138,6 +142,24 @@
 				A70F8B001DCD65BE00963213 /* Info.plist */,
 			);
 			path = LJToolsUITests;
+			sourceTree = "<group>";
+		};
+		A7A3D6CD1DD4622A00B7FC06 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D6CE1DD4629600B7FC06 /* MapCoordinateCorrection */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A7A3D6CE1DD4629600B7FC06 /* MapCoordinateCorrection */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3D6CF1DD4634700B7FC06 /* LJMapCoordinateToCorrect.h */,
+				A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */,
+			);
+			name = MapCoordinateCorrection;
+			path = MapCoordinateChange;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +297,7 @@
 			files = (
 				A70F8AE11DCD65BE00963213 /* ViewController.m in Sources */,
 				A70F8ADE1DCD65BE00963213 /* AppDelegate.m in Sources */,
+				A7A3D6D11DD4634700B7FC06 /* LJMapCoordinateToCorrect.m in Sources */,
 				A70F8ADB1DCD65BE00963213 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +530,7 @@
 				A70F8B051DCD65BE00963213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A70F8B061DCD65BE00963213 /* Build configuration list for PBXNativeTarget "LJToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +539,7 @@
 				A70F8B081DCD65BE00963213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A70F8B091DCD65BE00963213 /* Build configuration list for PBXNativeTarget "LJToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +548,7 @@
 				A70F8B0B1DCD65BE00963213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
