@@ -15,7 +15,9 @@
 		A70F8AE91DCD65BE00963213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70F8AE71DCD65BE00963213 /* LaunchScreen.storyboard */; };
 		A70F8AF41DCD65BE00963213 /* LJToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8AF31DCD65BE00963213 /* LJToolsTests.m */; };
 		A70F8AFF1DCD65BE00963213 /* LJToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8AFE1DCD65BE00963213 /* LJToolsUITests.m */; };
+		A77CCFF81DF15D070088290A /* LJDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CCFF71DF15D070088290A /* LJDateHelper.m */; };
 		A7A3D6D11DD4634700B7FC06 /* LJMapCoordinateToCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */; };
+		A7F7180F1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7180E1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +54,12 @@
 		A70F8AFA1DCD65BE00963213 /* LJToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70F8AFE1DCD65BE00963213 /* LJToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJToolsUITests.m; sourceTree = "<group>"; };
 		A70F8B001DCD65BE00963213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77CCFF61DF15D070088290A /* LJDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDateHelper.h; sourceTree = "<group>"; };
+		A77CCFF71DF15D070088290A /* LJDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDateHelper.m; sourceTree = "<group>"; };
 		A7A3D6CF1DD4634700B7FC06 /* LJMapCoordinateToCorrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMapCoordinateToCorrect.h; sourceTree = "<group>"; };
 		A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMapCoordinateToCorrect.m; sourceTree = "<group>"; };
+		A7F7180D1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LJRichtextChangeLineSpace.h"; sourceTree = "<group>"; };
+		A7F7180E1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LJRichtextChangeLineSpace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,9 +150,20 @@
 			path = LJToolsUITests;
 			sourceTree = "<group>";
 		};
+		A77CCFF51DF15C8F0088290A /* TimerTools */ = {
+			isa = PBXGroup;
+			children = (
+				A77CCFF61DF15D070088290A /* LJDateHelper.h */,
+				A77CCFF71DF15D070088290A /* LJDateHelper.m */,
+			);
+			path = TimerTools;
+			sourceTree = "<group>";
+		};
 		A7A3D6CD1DD4622A00B7FC06 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A7F7180C1DF168790019680C /* RichtextChangeLineSpace */,
+				A77CCFF51DF15C8F0088290A /* TimerTools */,
 				A7A3D6CE1DD4629600B7FC06 /* MapCoordinateCorrection */,
 			);
 			path = Tools;
@@ -160,6 +177,16 @@
 			);
 			name = MapCoordinateCorrection;
 			path = MapCoordinateChange;
+			sourceTree = "<group>";
+		};
+		A7F7180C1DF168790019680C /* RichtextChangeLineSpace */ = {
+			isa = PBXGroup;
+			children = (
+				A7F7180D1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.h */,
+				A7F7180E1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m */,
+			);
+			name = RichtextChangeLineSpace;
+			path = LabelHeightAndMargin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +326,8 @@
 				A70F8ADE1DCD65BE00963213 /* AppDelegate.m in Sources */,
 				A7A3D6D11DD4634700B7FC06 /* LJMapCoordinateToCorrect.m in Sources */,
 				A70F8ADB1DCD65BE00963213 /* main.m in Sources */,
+				A7F7180F1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m in Sources */,
+				A77CCFF81DF15D070088290A /* LJDateHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
