@@ -35,7 +35,7 @@ static const CGFloat kTextViewkern = 0.5;                       //文字间距
 /**
  *  改变行间距
  */
-+ (void)changeLineSpaceForLabel:(UILabel *)label WithSpace:(CGFloat)space {
++ (void)changeLineSpaceForLabel:(UILabel *)label withSpace:(CGFloat)space {
     
     NSString *labelText = label.text;
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:labelText];
@@ -51,7 +51,7 @@ static const CGFloat kTextViewkern = 0.5;                       //文字间距
 /**
  *  改变字间距
  */
-+ (void)changeWordSpaceForLabel:(UILabel *)label WithSpace:(CGFloat)space {
++ (void)changeWordSpaceForLabel:(UILabel *)label withSpace:(CGFloat)space {
     NSString *labelText = label.text;
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:labelText attributes:@{NSKernAttributeName:@(space)}];
     
@@ -67,7 +67,7 @@ static const CGFloat kTextViewkern = 0.5;                       //文字间距
 /**
  *  改变行间距和字间距
  */
-+ (void)changeSpaceForLabel:(UILabel *)label withLineSpace:(CGFloat)lineSpace WordSpace:(CGFloat)wordSpace {
++ (void)changeSpaceForLabel:(UILabel *)label withLineSpace:(CGFloat)lineSpace wordSpace:(CGFloat)wordSpace {
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:label.text];
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.lineSpacing = lineSpace; // 调整行间距

@@ -18,16 +18,16 @@
 /**
  *  改变行间距
  */
-+ (void)changeLineSpaceForLabel:(UILabel *)label WithSpace:(CGFloat)space;
++ (void)changeLineSpaceForLabel:(UILabel *)label withSpace:(CGFloat)space;
 
 /**
  *  改变字间距
  */
-+ (void)changeWordSpaceForLabel:(UILabel *)label WithSpace:(CGFloat)space;
++ (void)changeWordSpaceForLabel:(UILabel *)label withSpace:(CGFloat)space;
 
 /**
  *  改变行间距和字间距
  */
-+ (void)changeSpaceForLabel:(UILabel *)label withLineSpace:(CGFloat)lineSpace WordSpace:(CGFloat)wordSpace;
++ (void)changeSpaceForLabel:(UILabel *)label withLineSpace:(CGFloat)lineSpace wordSpace:(CGFloat)wordSpace;
 
 @end
