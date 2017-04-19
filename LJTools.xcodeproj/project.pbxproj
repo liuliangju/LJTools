@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E67024BCC820CB0788DFC2B /* libPods-LJTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C30CD187B1E83DF670E209 /* libPods-LJTools.a */; };
 		A70F8ADB1DCD65BE00963213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8ADA1DCD65BE00963213 /* main.m */; };
 		A70F8ADE1DCD65BE00963213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8ADD1DCD65BE00963213 /* AppDelegate.m */; };
 		A70F8AE11DCD65BE00963213 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8AE01DCD65BE00963213 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		A70F8AF41DCD65BE00963213 /* LJToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8AF31DCD65BE00963213 /* LJToolsTests.m */; };
 		A70F8AFF1DCD65BE00963213 /* LJToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70F8AFE1DCD65BE00963213 /* LJToolsUITests.m */; };
 		A77CCFF81DF15D070088290A /* LJDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CCFF71DF15D070088290A /* LJDateHelper.m */; };
-		A7A3D6D11DD4634700B7FC06 /* LJMapCoordinateToCorrect.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */; };
 		A7F7180F1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7180E1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06C30CD187B1E83DF670E209 /* libPods-LJTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C909900792B156F87CC98C7 /* Pods-LJTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJTools/Pods-LJTools.release.xcconfig"; sourceTree = "<group>"; };
+		88ABE2D58B9475E486FBBA02 /* Pods-LJTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJTools/Pods-LJTools.debug.xcconfig"; sourceTree = "<group>"; };
 		A70F8AD61DCD65BE00963213 /* LJTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70F8ADA1DCD65BE00963213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A70F8ADC1DCD65BE00963213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,8 +59,6 @@
 		A70F8B001DCD65BE00963213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A77CCFF61DF15D070088290A /* LJDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJDateHelper.h; sourceTree = "<group>"; };
 		A77CCFF71DF15D070088290A /* LJDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJDateHelper.m; sourceTree = "<group>"; };
-		A7A3D6CF1DD4634700B7FC06 /* LJMapCoordinateToCorrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMapCoordinateToCorrect.h; sourceTree = "<group>"; };
-		A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMapCoordinateToCorrect.m; sourceTree = "<group>"; };
 		A7F7180D1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LJRichtextChangeLineSpace.h"; sourceTree = "<group>"; };
 		A7F7180E1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LJRichtextChangeLineSpace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E67024BCC820CB0788DFC2B /* libPods-LJTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FDFC77F74EB832E12FA558E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06C30CD187B1E83DF670E209 /* libPods-LJTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A70F8ACD1DCD65BE00963213 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,8 @@
 				A70F8AF21DCD65BE00963213 /* LJToolsTests */,
 				A70F8AFD1DCD65BE00963213 /* LJToolsUITests */,
 				A70F8AD71DCD65BE00963213 /* Products */,
+				BC4C358093AC5355F3C41208 /* Pods */,
+				1FDFC77F74EB832E12FA558E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,19 +176,8 @@
 			children = (
 				A7F7180C1DF168790019680C /* RichtextChangeLineSpace */,
 				A77CCFF51DF15C8F0088290A /* TimerTools */,
-				A7A3D6CE1DD4629600B7FC06 /* MapCoordinateCorrection */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		A7A3D6CE1DD4629600B7FC06 /* MapCoordinateCorrection */ = {
-			isa = PBXGroup;
-			children = (
-				A7A3D6CF1DD4634700B7FC06 /* LJMapCoordinateToCorrect.h */,
-				A7A3D6D01DD4634700B7FC06 /* LJMapCoordinateToCorrect.m */,
-			);
-			name = MapCoordinateCorrection;
-			path = MapCoordinateChange;
 			sourceTree = "<group>";
 		};
 		A7F7180C1DF168790019680C /* RichtextChangeLineSpace */ = {
@@ -189,6 +190,15 @@
 			path = LabelHeightAndMargin;
 			sourceTree = "<group>";
 		};
+		BC4C358093AC5355F3C41208 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88ABE2D58B9475E486FBBA02 /* Pods-LJTools.debug.xcconfig */,
+				5C909900792B156F87CC98C7 /* Pods-LJTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A70F8B031DCD65BE00963213 /* Build configuration list for PBXNativeTarget "LJTools" */;
 			buildPhases = (
+				C922969268C451EF678DC1A0 /* [CP] Check Pods Manifest.lock */,
 				A70F8AD21DCD65BE00963213 /* Sources */,
 				A70F8AD31DCD65BE00963213 /* Frameworks */,
 				A70F8AD41DCD65BE00963213 /* Resources */,
+				D2FD4AD6077F744D72A298AE /* [CP] Embed Pods Frameworks */,
+				B760062ACB7DC138E7605CCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +330,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B760062ACB7DC138E7605CCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJTools/Pods-LJTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C922969268C451EF678DC1A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FD4AD6077F744D72A298AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJTools/Pods-LJTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A70F8AD21DCD65BE00963213 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -324,7 +385,6 @@
 			files = (
 				A70F8AE11DCD65BE00963213 /* ViewController.m in Sources */,
 				A70F8ADE1DCD65BE00963213 /* AppDelegate.m in Sources */,
-				A7A3D6D11DD4634700B7FC06 /* LJMapCoordinateToCorrect.m in Sources */,
 				A70F8ADB1DCD65BE00963213 /* main.m in Sources */,
 				A7F7180F1DF168EF0019680C /* UILabel+LJRichtextChangeLineSpace.m in Sources */,
 				A77CCFF81DF15D070088290A /* LJDateHelper.m in Sources */,
@@ -474,6 +534,7 @@
 		};
 		A70F8B041DCD65BE00963213 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88ABE2D58B9475E486FBBA02 /* Pods-LJTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LJTools/Info.plist;
@@ -485,6 +546,7 @@
 		};
 		A70F8B051DCD65BE00963213 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C909900792B156F87CC98C7 /* Pods-LJTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LJTools/Info.plist;

@@ -1,0 +1,12 @@
+PODS:
+  - LJMapCoordinateCorrection (1.0.0)
+
+DEPENDENCIES:
+  - LJMapCoordinateCorrection (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  LJMapCoordinateCorrection: e34e1bc401877797f692abec5e3d414ff677b33d
+
+PODFILE CHECKSUM: aaf7a968d80bdbd781788ec75e35758d9b5513c0
+
+COCOAPODS: 1.2.1
