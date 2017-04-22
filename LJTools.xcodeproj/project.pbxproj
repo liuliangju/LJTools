@@ -162,6 +162,13 @@
 			path = LJToolsUITests;
 			sourceTree = "<group>";
 		};
+		A7132B631EAB7927005EC377 /* StringTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StringTools;
+			sourceTree = "<group>";
+		};
 		A77CCFF51DF15C8F0088290A /* TimerTools */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +181,7 @@
 		A7A3D6CD1DD4622A00B7FC06 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A7132B631EAB7927005EC377 /* StringTools */,
 				A7F7180C1DF168790019680C /* RichtextChangeLineSpace */,
 				A77CCFF51DF15C8F0088290A /* TimerTools */,
 			);
